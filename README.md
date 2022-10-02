@@ -11,10 +11,6 @@ firefox
 - get url `about:devtools-toolbox?id=e389d8c2-5554-4ba2-a36e-ac7a57093130@gmail.com&type=extension`
 - check/click tab network, reload, domain www.tubebuddy.com dan file getprofile?timeZoneOffset=+XX:X
 - view request header **currentChannelId** and **currentChannelToken**
-<<<<<<< HEAD
-=======
-
->>>>>>> ddf968432b92ee8f7abb89bc901c65691575e7ed
 chrome
 - get url `chrome-extension://mhkhmbddkmdggbhaaaodilponhnccicb/_generated_background_page.html`
 - click/click ctrl+shift+i, reload other tab url youtube and back to first tab
@@ -33,11 +29,3 @@ pause next in check key tubebuddy 3 second and looping interval 10 data in 20 se
 1. remove plugin tubebuddy in browser and chaneel youtube in account tubebuddy
 2. delete account in profile account click *Permanently Delete My Account*
 3. finish, repeat step Getting started
-<<<<<<< HEAD
-=======
-
-
-
-
-
->>>>>>> ddf968432b92ee8f7abb89bc901c65691575e7ed
