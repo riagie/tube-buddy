@@ -12,8 +12,9 @@ firefox
 - check/click tab network, reload, domain www.tubebuddy.com dan file getprofile?timeZoneOffset=+XX:X
 - view request header **currentChannelId** and **currentChannelToken**
 chrome
-- get url `chrome-extension://mhkhmbddkmdggbhaaaodilponhnccicb/_generated_background_page.html`
-- click/click ctrl+shift+i, reload other tab url youtube and back to first tab
+- get url `chrome://extensions` and Mode developer is on
+- click background page in tubebuddy
+- click tab security, reload other tab url youtube and back to first tab
 - click name getprofile?timeZoneOffset=%2B07%3A00
 - view request header **currentChannelId** and **currentChannelToken**
 ```
