@@ -30,3 +30,5 @@ pause next in check key tubebuddy 3 second and looping interval 10 data in 20 se
 1. remove plugin tubebuddy in browser and chaneel youtube in account tubebuddy
 2. delete account in profile account click *Permanently Delete My Account*
 3. finish, repeat step Getting started
+3. finish, repeat step Getting started
+
