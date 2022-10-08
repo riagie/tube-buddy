@@ -14,7 +14,7 @@ firefox
 chrome
 - get url `chrome://extensions` and Mode developer is on
 - click background page in tubebuddy
-- click tab security, reload other tab url youtube and back to first tab
+- click tab security, network, reload other tab url youtube and back to first tab
 - click name getprofile?timeZoneOffset=%2B07%3A00
 - view request header **currentChannelId** and **currentChannelToken**
 ```

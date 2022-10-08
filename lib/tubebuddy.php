@@ -37,7 +37,7 @@ class Tubebuddy
         $data = '{"Region":"us","Tags":[],"Language":"en","WeightScore":true,"TagsWithExactCounts":[],"TagsWithExactCountAndSearchResults":[{"Tag":"' . $tag . '","ExactCount":1,"SearchResults":[],"TotalSearchResultCount":1}]}';
 
         $this->curl = curl_init();
-        // $this->setUserAgent(self::USER_AGENT);
+        // // $this->setUserAgent(self::USER_AGENT);
         $this->setHeader($header);
         $this->setOpt(CURLOPT_URL, $this->API);
         $this->setOpt(CURLOPT_RETURNTRANSFER, true);
@@ -48,11 +48,10 @@ class Tubebuddy
         $this->setOpt(CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_1);
         $this->setOpt(CURLOPT_SSL_VERIFYPEER, false);
         $this->setOpt(CURLOPT_SSL_VERIFYHOST, false);
-        // $this->setOpt(CURLOPT_AUTOREFERER, true);
-        // $this->setOpt(CURLOPT_VERBOSE, true);
+        // // $this->setOpt(CURLOPT_AUTOREFERER, true);
+        // // $this->setOpt(CURLOPT_VERBOSE, true);
         $this->setOpt(CURLOPT_CUSTOMREQUEST, "POST");
         $this->setOpt(CURLOPT_POSTFIELDS, $data);
-        // $this->setOpt(CURLOPT_POSTFIELDS, $this->Json('encode', $data));
         $this->exec();
         $this->close();
         
@@ -84,7 +83,6 @@ class Tubebuddy
 
     public function setOpt($option, $value) 
     {
-        // return curl_setopt($this->curl, $option, $value);
         $this->options[$option] = $value;
 
         return $this;

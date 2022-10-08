@@ -11,9 +11,6 @@
 
 define('VERSION', '1.0.0');
 
-// define('MEMORY_LIMIT', '512M');
-// define('MAX_EXECUTION_TIME', '43200');
-
 /**
  * API PATH CONFIGURATION
 */
@@ -30,7 +27,6 @@ define('FILE_EXCEL', 'tubebuddy');
 /**
  * API GLOBAL CONFIGURATION
  */
-// define('MAX_EXECUTION', 30);
 define('MAX_TIMEOUT', 30);
 define('SLEEP', 3);
 define('MAX_SLEEP', 20);
