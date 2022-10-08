@@ -22,10 +22,14 @@ chrome
 4. file data key in excel save in **src** name tubebuddy or edit file config name *FILE_EXCEL*
 5. closed browser (firefox or chrome) connected from tubebuddy
 6. double click tubebuddy.bat
-
 ### Description
 pause next in check key tubebuddy 3 second and looping interval 10 data in 20 second then update file config *SLEEP* and *MAX_SLEEP*
-
+### Developer mode
+```
+require('lib/tubebuddy.php');
+$tubebuddy = new tubebuddy();
+$tubebuddy = $tubebuddy->init(*text_search*)
+```
 ### Trick limit output console bat desc limit 
 1. remove plugin tubebuddy in browser and chaneel youtube in account tubebuddy
 2. delete account in profile account click *Permanently Delete My Account*
