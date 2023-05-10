@@ -1,4 +1,4 @@
-tubebuddy-bot-keyword-explorer
+TubeBuddy-key-explorer
 ==
 
 TubeBuddy's Keyword Explorer API Wrapper 
